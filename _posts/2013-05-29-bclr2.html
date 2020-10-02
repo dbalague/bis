@@ -1,0 +1,38 @@
+---
+layout: post
+title: Dimensionality of Local Minimizers of the Interaction Energy
+date: '2013-05-29T16:12:00.000-07:00'
+author: Daniel Balagué
+tags:
+- Publications
+modified_time: '2018-06-26T10:42:29.596-07:00'
+thumbnail: https://i.ytimg.com/vi/0TDTAceJjok/default.jpg
+blogger_id: tag:blogger.com,1999:blog-1579456088380428697.post-7429710521077235058
+blogger_orig_url: https://dbalague.blogspot.com/2013/05/bclr2.html
+---
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<h2><span style="font-weight: normal;"><span style="font-size: large;">D. Balagué, J. A. Carrillo, T. Laurent, G. Raoul</span></span></h2><br />
+<div style="text-align: justify;">In this work we consider local minimizers (in the topology of transport distances) of the interaction energy associated to a repulsive-attractive potential. We show how the imensionality of the support of local minimizers is related to the repulsive strength of the potential at the origin.</div>
+<div style="text-align: justify;"><br /></div>Journal reference: <a href="http://link.springer.com/article/10.1007%2Fs00205-013-0644-6">Archive for Rational Mechanics and Analysis</a>, 2013.<br /><a href="http://arxiv.org/abs/1210.6795">arXiv</a> Thu, 25 Oct 2012<br /><br /><h3 style="text-align: center;"><u>Complementary materials</u></h3><div style="text-align: left;"><br /><a name='more'></a><br /><br /><a href="https://www.blogger.com/blogger.g?blogID=1579456088380428697" name="more"></a><br /></div>
+<div style="text-align: justify;">In this page we show some numerical simulations for the <a href="http://arxiv.org/pdf/1210.6795v1"><i>Dimensionality  of Local Minimizers of the Interaction Energy</i></a>. We will keep the same notation as in the paper to  make this page more readable. </div><br />
+<div style="text-align: justify;">We numerically compute some local minimizers of the discrete interaction energy (2) of \(n\) particles located at \(X_1,...,X_n \in \mathbb{R}^N\) \[ E_W^n[X_1,\dots, X_n]:=\frac{1}{2n}\sum_{\substack{i,\,j=1\\j\neq i}}^n W\left(X_i-X_j\right),\] where \(W\) is a radially symmetric repulsive-attractive interaction potential \(W(x)=k(|x|)\) given by \[ k(r)=-\frac{r^\alpha}{\alpha}+\frac{r^\gamma}{\gamma}.\]  As it is explained in Section 6, to efficiently find local minimizers we solve \[ \dot{X}_i=-\sum_{\substack{j=1\\j\neq i}}^n m_j \nabla W\left(X_i-X_j\right)\] with an explicit Euler scheme with adaptive time step chosen the largest possible such that the discrete energy decreases. In stiffer situations an explicit Runge-Kutta method is used instead. The results in Table CM1 are discussed below: </div><br /><ul><li style="text-align: justify;">\(\alpha=2.1\): According to Theorem 2, the support of the local  minimizer has zero Hausdorff dimension. In this particular case it is supported on four points. For   this case we have \(\gamma=4\).</li><br /><li style="text-align: justify;">\(\alpha=1.85\): Following Theorem 1, the Hausdorff dimension must be greater than or equal to \(\beta=2-\alpha=2-1.85=0.15\). In fact, in our simulations we observe that the support is a circle  (Hausdorff dimension 1). For this simulation we choose \(\gamma=4\).</li><br /><li style="text-align: justify;">\(\alpha=1.35\): In this case we observe that particles concentrate on three curves (Hausdorff dimension 1). According to  Theorem 1, the Hausdorff dimension of the support of the local minimizer should be larger than or  equal to \(\beta=0.65\). In this case, \(\gamma=15\).</li><br /><li style="text-align: justify;">\(\alpha=0.85\): From Theorem 1, the Hausdorff dimension of the support of the local minimizer  must be greater than or equal to \(\beta=1.15\). We observe that the particles evolve into a concentration  in an annular region. The attractive force is given by \(\gamma=4\).&nbsp;</li></ul><br /><br />All the simulations have been done using \(n=1000\) particles. <br /><br /><center><b>TABLE CM1:</b> Evolution of particles towards local minimizers of the interaction energy.</center>
+<table align="center" border="2" bordercolor="black">      <tbody><tr>        <td align="center">Dim </td>        <td align="center">\(\alpha=2.1\)</td> <td align="center">\(\alpha=1.85\)</td> <td align="center">\(\alpha=1.35\)</td> <td align="center">\(\alpha=0.85\)</td>      </tr><tr> <td align="center">0</td> <td><iframe width="160" height="120" src="https://www.youtube.com/embed/0TDTAceJjok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>        <td> </td>        <td> </td>        <td> </td>      </tr><tr> <td align="center">1</td> <td> </td>        <td><iframe width="160" height="120" src="https://www.youtube.com/embed/2fL_drDKX8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>        <td><iframe width="160" height="120" src="https://www.youtube.com/embed/FzSLf3En5uk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>        <td> </td>      </tr><tr> <td align="center">2</td> <td> </td>        <td> </td>        <td> </td>        <td><iframe width="160" height="120" src="https://www.youtube.com/embed/50rM1zvipio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>    </tr></tbody></table><br /><br />Other potentials may lead to very complex patterns. For instance, if we consider the potential \[k'(r)=\tanh((1-r)a)-b\] with \(a=6\) and \(b=0.7\) one obtains the evolution shown in Video CM1.<br /><br /><br /><div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/gNdmPaSciT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div><div style="text-align: center;"><b>Video CM1:</b> Evolution of particles towards local minimizers of the interaction energy for \(k'(r)=\tanh((1-r)a)-b\).  </div>
+
+<!-- Default Statcounter code for Pàgina Personal
+https://dbalague.github.io/personal -->
+<script type="text/javascript">
+    var sc_project=12366162; 
+    var sc_invisible=1; 
+    var sc_security="fa1c017b"; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="real time web
+    analytics" href="https://statcounter.com/"
+    target="_blank"><img class="statcounter"
+    src="https://c.statcounter.com/12366162/0/fa1c017b/1/"
+    alt="real time web analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
