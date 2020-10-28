@@ -6,8 +6,7 @@ permalink: /about/
 
 # Current Position
 
-I am a Lecturer to the faculty of Electrical Engineering, Mathematics, and Computer Science at TU Delft at TU Delft (Delft University of Technology)
-Currently participating in the College of Arts and Sciences Online Learning Community.
+I am a Lecturer to the faculty of Electrical Engineering, Mathematics, and Computer Science at TU Delft at TU Delft (Delft University of Technology).
 
 # Research Visits
 - Imperial College London, London, UK. January 28 – April 30, 2013.
