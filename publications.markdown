@@ -7,7 +7,7 @@ permalink: /publications/
 # Papers and Submissions
 Publications sorted from most recent to oldest
 
-1. D. Balagué, A. Barbaro, J. A. Carrillo, R. Volkin. Analysis of spherical shell solutions for the radially symmetric aggregation equation. Accepted for publication in SIAM Journal on Applied Dynamical Systems, September 2020.
+1. D. Balagué, A. Barbaro, J. A. Carrillo, R. Volkin. [Analysis of spherical shell solutions for the radially symmetric aggregation equation](/personal/2020/11/25/sphericalshells01.html). SIAM J. Appl. Dyn. Syst., 19(4), 2628–2657.
 
 2. Travis R. Meyer, Daniel Balagué, Miguel Camacho-Collados, Hao Li, Katie Khuu, P. Jeffrey Brantingham, and Andrea L. Bertozzi. [A year in Madrid as described through the analysis of geotagged Twitter data](http://journals.sagepub.com/doi/10.1177/2399808318764123). Environment and Planning B: Urban Analytics and City Science, 46(9), 1724–1740, 2018.
 
