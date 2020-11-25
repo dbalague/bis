@@ -3,6 +3,7 @@ layout: post
 title:  "Analysis of spherical shell solutions for the radially symmetric aggregation equation"
 date:   2020-11-25 21:10:00 +0100
 categories: news
+author: Daniel Balagué
 ---
 D. Balagué, A. Barbaro, J. A. Carrillo, R. Volkin.
 
